@@ -53,6 +53,7 @@ L.Control.Export.include({
                 this.addSelector([[south, west], [north, east]]);
                 return true;
             }
+            this.setMinimized();
             return false;
         }
     }
